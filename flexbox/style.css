@@ -141,6 +141,11 @@ header {
  left: 28%;
 }
 
+.zig {
+ bottom: 57%;
+ right: 65%;
+}
+
 .indicators-up {
   position: absolute;
   right: 0;
@@ -274,6 +279,10 @@ hr{
   margin-right: auto;
   justify-content: space-between;
 
+}
+
+svg {
+  padding-top: 10px;
 }
 
 .menu {
@@ -541,22 +550,22 @@ color: #f1a88b;
     }
 
     .logo2 {
-      bottom: 50%;
+      bottom: 45%;
       right: 40%;
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
 
     .logo3 {
       bottom: 40%;
-      right: 20%;
-      font-size: 1.2rem;
+      right: 23%;
+      font-size: 1.1rem;
       text-shadow: 2px 2px 2px black;
     }
 
     .square {
       height: 6px;
       width: 40px;
-      bottom: 54%;
+      bottom: 50%;
       left: 30%;
     }
 
@@ -564,6 +573,11 @@ color: #f1a88b;
       left:32%;
       top:45%;
     }
+
+    .zig {
+      bottom: 62%;
+      right: 65%;
+}
 }
 
 
@@ -601,7 +615,7 @@ color: #f1a88b;
       left: 78%;
     }
 
-    .logo2, .logo3, .square, .owl-carousel:after {
+    .logo2, .logo3, .square, .owl-carousel:after, .zig {
       display: none;
     }
 

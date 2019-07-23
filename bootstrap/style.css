@@ -51,6 +51,11 @@ header {
  left: 30%;
 }
 
+.zig {
+ bottom: 65%;
+ right: 65%;
+}
+
 .indicators-up {
   position: absolute;
   right: 0;
@@ -302,7 +307,14 @@ color: #f1a88b;
 }
 
 /*------------------media-------------------------*/
+@media (max-width: 1200px) {
+  .zig {
+  bottom: 66%;
+  right: 70%;
+  }
 
+
+}
 @media (max-width: 992px) {
     .dish1{
       text-align: end;
@@ -369,6 +381,11 @@ color: #f1a88b;
       bottom: 49%;
       left: 28%;
     }
+
+    .zig {
+      bottom: 68%;
+      right: 68%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -391,17 +408,11 @@ color: #f1a88b;
       font-size: 2rem;
     }
 
-    .logo3 {
+    .logo3, #carousel1:after, .square, .zig  {
       display: none;
     }
 
-    .square {
-      display: none;
-    }
 
-    #carousel1:after{ 
-    display: none;
-    }
 }
 
 @media (max-width: 576px) { 
