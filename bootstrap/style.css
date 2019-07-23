@@ -1,0 +1,415 @@
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: serif;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+header {
+ padding-bottom: 50px;
+ padding-top: 50px;  
+  margin: 0; 
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.logo {
+ position: absolute;
+ color: white;
+ text-transform: uppercase;
+}
+.logo1 {
+ top: 2%;
+ left: 2%;
+}
+
+.logo2 {
+ bottom: 50%;
+ right: 40%;
+ font-size: 4rem;
+}
+
+.logo3 {
+ bottom: 45%;
+ right: 20%;
+}
+
+.square {
+  display: block;
+  height: 8px;
+  width: 50px;
+  background-color: white;
+  bottom: 48%;
+ left: 30%;
+}
+
+.indicators-up {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: start;
+  padding-left: 0;
+  margin-right: 10%;
+  margin-left: 80%;
+  list-style: none;
+}
+
+#carousel1 {
+  position: relative;
+}
+
+#carousel1:after{
+  content:"";
+  display:block;
+  position:absolute;
+  left:35%;top:40%;
+  color:red;
+  width:30%;
+  height:0;
+  border-bottom:2px solid white;
+  transform:rotate(-50deg);
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 3em;
+  right: 3em;
+  width: 90%;
+}
+
+.nav-item {
+  border-left: 1px solid white;
+}
+
+.nav-item:first-child {
+  border-left: none;
+}
+
+/*------------------------------меню------------------------------*/
+.title {
+  background-color: #242426;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.title h2 {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+}
+
+hr{
+  position: absolute;
+  bottom: 10px;
+  left:0;
+  width:100%;
+  border-top: 1px solid #f1a88b;   
+}
+
+.menu h4 {
+  padding: 50px 10px 0 10px;
+  font-style: italic;
+  font-weight: normal; 
+  text-shadow: 2px 2px 2px white;
+}
+
+.menu p {
+  padding: 10px 10px 10px 10px;
+}
+
+
+.plate {
+  background: url(image/tarelka.jpg) no-repeat center center;
+  padding: 5em; 
+}
+
+.plate p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+ h5 {
+  text-shadow: 2px 2px 2px white;
+} 
+
+.all_menu {
+  width: 50%;
+  font-style: italic;
+}
+
+.aktionen_div {
+ position: relative;
+ margin-bottom: 30px; 
+}
+
+.aktionen {
+  display: inline-block;
+  color:  #f1a88b;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
+  width: 50%; 
+  text-align: center; 
+  border-bottom: 1px solid #f1a88b; 
+  line-height: 0.1em; 
+}
+
+.aktionen span {   
+    background:#fff; 
+    padding: 0 10px;    
+}
+
+/*----------карусель--------------*/
+
+
+.owl-my .owl-carousel {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.owl-item, .map-responsive {
+  border: 1px solid #f1a88b;
+  padding: 10px; 
+  margin-bottom: 4em;
+}
+
+.owl-my {
+  padding: 50px;
+}
+
+/*----------------карточки------------------------*/
+
+
+.read {
+  color: black; 
+}
+
+.read:hover {
+ color: #f1a88b;
+ text-decoration: none;
+}
+
+.title_card {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.my_card {
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+  margin-bottom: 1em;
+}
+
+.my_card_col {
+  border: 1px solid #f1a88b;
+  padding: 10px; 
+  margin: 30px 0 30px; 
+}
+
+
+.bez {
+  background-color: #dfdbcf;
+}
+
+.row_card {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.img_card {
+  padding-right: 0;
+}
+
+
+/*----------------------форма---------------------------*/
+
+.form-control, .btn_form {
+  border-radius: 0;
+  background: transparent;
+  border: 1px solid #f1a88b;
+}
+
+.form-control:focus {
+  background: transparent;
+  border-color: #242426;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(36, 36, 38, 0.25);
+}
+
+#validationCustom01, #validationCustom02 {
+  width: 70%
+} 
+
+.btn_form {
+  padding-left: 5em;
+  padding-right: 5em; 
+}
+
+.map-responsive {
+  margin-top: 80px;
+}
+
+footer .container{
+  background-color: #242426;
+  color: white;
+  line-height: 1.5;
+}
+
+footer .container .col-3{
+  padding-left: 4em;
+}
+
+.fa-user-secret {
+  color: white;
+  font-size: 30px;
+}
+
+/*---------------заголовок---------------*/
+
+.fa-bullseye {
+position: absolute;
+bottom: 40%;
+color: #f1a88b;
+}
+
+.bullseye1 {
+  left: 23%;
+}
+.bullseye2 {
+  right: 23%;
+}
+
+/*------------------media-------------------------*/
+
+@media (max-width: 992px) {
+    .dish1{
+      text-align: end;
+      background: url(image/pancakes2_640.jpg) no-repeat top left!important; 
+    }  
+    .dish2{
+      text-align: start;
+      background: url(image/salad2_640.jpg) no-repeat top right!important; 
+    }  
+    .dish3{
+      text-align: end;
+      background: url(image/bruschetta2_640.jpg) no-repeat top left!important; 
+    }  
+    
+    #carousel1 {
+      position: relative;
+    }
+    .nav {
+      left: 0;
+      right: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+    }
+
+    .nav-item {
+      align-self: flex-end;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid white;
+    }
+
+    .nav-item:last-child {
+      border: none;
+    }
+    .logo {
+      position: absolute;
+      color: white;
+      text-transform: uppercase;
+    }
+    .logo1 {
+      top: 2%;
+      left: 2%;
+      font-size: 1.5rem;
+    }
+
+    .logo2 {
+      bottom: 50%;
+      right: 40%;
+      font-size: 3rem;
+    }
+
+    .logo3 {
+      bottom: 45%;
+      right: 20%;
+      font-size: 0.8rem;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .square {
+      height: 6px;
+      width: 40px;
+      bottom: 49%;
+      left: 28%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .logo {
+      position: absolute;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    .logo1 {
+      top: 2%;
+      left: 2%;
+      font-size: 1rem;
+    }
+
+    .logo2 {
+      bottom: 2%;
+      left: 2%;
+      font-size: 2rem;
+    }
+
+    .logo3 {
+      display: none;
+    }
+
+    .square {
+      display: none;
+    }
+
+    #carousel1:after{ 
+    display: none;
+    }
+}
+
+@media (max-width: 576px) { 
+  .nav-item {
+      font-size: 1em;
+    }
+  .nav-link {
+    padding: 0.25em 0.25em; 
+  }
+
+}
