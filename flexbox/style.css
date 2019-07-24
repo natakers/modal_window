@@ -397,6 +397,7 @@ svg {
   color: black; 
   padding-bottom: 0.8em;
   padding-left: 0.8em;
+  text-decoration: none;
 }
 
 .read:hover {
